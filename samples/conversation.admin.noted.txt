@@ -1,0 +1,70 @@
+{
+  "type" : "notification_event",
+  "app_id" : "YOUR_APP_ID",
+  "data" : {
+    "type" : "notification_event_data",
+    "item" : {
+      "type" : "conversation",
+      "id" : "4584686769",
+      "created_at" : 1461165141,
+      "updated_at" : 1461165172,
+      "user" : {
+        "type" : "user",
+        "id" : "57179c30c776e05d4c0002a8",
+        "name" : "Jane Doe",
+        "email" : ""
+      },
+      "assignee" : {
+        "type" : "admin",
+        "id" : "246810",
+        "name" : "Timothy Lim",
+        "email" : "admin@yourdomain.com"
+      },
+      "conversation_message" : {
+        "type" : "conversation_message",
+        "id" : "27056613",
+        "subject" : "",
+        "body" : "<p>visitor initiated message 1</p>",
+        "author" : {
+          "type" : "user",
+          "id" : "57179c30c776e05d4c0002a8"
+        },
+        "attachments" : [ ]
+      },
+      "conversation_parts" : {
+        "type" : "conversation_part.list",
+        "conversation_parts" : [ {
+          "type" : "conversation_part",
+          "id" : "98539711",
+          "part_type" : "note",
+          "body" : "<p>admin note</p>",
+          "created_at" : 1461165172,
+          "updated_at" : 1461165172,
+          "notified_at" : 1461165172,
+          "assigned_to" : null,
+          "author" : {
+            "type" : "admin",
+            "id" : "246810",
+            "name" : "Timothy Lim"
+          },
+          "attachments" : [ ]
+        } ]
+      },
+      "open" : true,
+      "read" : true,
+      "metadata" : { },
+      "links" : {
+        "conversation_web" : "https://app.intercom.io/a/apps/YOUR_APP_ID/inbox/all/conversations/4584686769"
+      }
+    }
+  },
+  "links" : { },
+  "id" : "notif_5a3551d0-070a-11e6-a3da-a5e2beb40c14",
+  "topic" : "conversation.admin.noted",
+  "delivery_status" : null,
+  "delivery_attempts" : 1,
+  "delivered_at" : 0,
+  "first_sent_at" : 1461165172,
+  "created_at" : 1461165172,
+  "self" : null
+}

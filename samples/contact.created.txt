@@ -1,0 +1,68 @@
+{
+  "type" : "notification_event",
+  "app_id" : "YOUR_APP_ID",
+  "data" : {
+    "type" : "notification_event_data",
+    "item" : {
+      "type" : "contact",
+      "id" : "57179c30c776e05d4c0002a8",
+      "user_id" : "712529d3-919d-4a91-ac31-60979319594d",
+      "anonymous" : true,
+      "email" : "",
+      "name" : null,
+      "pseudonym" : "Green Deer from Bandar Seri Begawan",
+      "avatar" : {
+        "type" : "avatar",
+        "image_url" : "https://static.intercomassets.com/app/pseudonym_avatars/green-deer.png"
+      },
+      "app_id" : "YOUR_APP_ID",
+      "companies" : {
+        "type" : "company.list",
+        "companies" : [ ]
+      },
+      "location_data" : {
+        "type" : "location_data",
+        "city_name" : "Bandar Seri Begawan",
+        "continent_code" : "AS",
+        "country_name" : "Brunei Darussalam",
+        "latitude" : 4.88329999999999,
+        "longitude" : 114.9333,
+        "postal_code" : "",
+        "region_name" : null,
+        "timezone" : "Asia/Brunei",
+        "country_code" : "BRN"
+      },
+      "last_request_at" : "2016-04-20T15:11:51.337Z",
+      "last_seen_ip" : "61.6.236.70",
+      "created_at" : "2016-04-20T15:11:44.074Z",
+      "remote_created_at" : "2011-08-01T07:00:00.000Z",
+      "signed_up_at" : "2011-08-01T07:00:00.000Z",
+      "updated_at" : "2016-04-20T15:11:51.357Z",
+      "session_count" : 0,
+      "social_profiles" : {
+        "type" : "social_profile.list",
+        "social_profiles" : [ ]
+      },
+      "unsubscribed_from_emails" : false,
+      "user_agent_data" : "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36",
+      "tags" : {
+        "type" : "tag.list",
+        "tags" : [ ]
+      },
+      "segments" : {
+        "type" : "segment.list",
+        "segments" : [ ]
+      },
+      "custom_attributes" : { }
+    }
+  },
+  "links" : { },
+  "id" : "notif_35c466b0-070a-11e6-a507-3d022cab75f8",
+  "topic" : "contact.created",
+  "delivery_status" : null,
+  "delivery_attempts" : 1,
+  "delivered_at" : 0,
+  "first_sent_at" : 1461165111,
+  "created_at" : 1461165111,
+  "self" : null
+}

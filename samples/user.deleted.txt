@@ -1,0 +1,22 @@
+{
+  "type" : "notification_event",
+  "app_id" : "YOUR_APP_ID",
+  "data" : {
+    "type" : "notification_event_data",
+    "item" : {
+      "type" : "user",
+      "id" : "5718cee5efe7a2183c000b5d",
+      "user_id" : "69e29d72-55f1-4bc4-a0d3-e1943f53acb3",
+      "email" : "visitor@example.com"
+    }
+  },
+  "links" : { },
+  "id" : "notif_d0a7a8b0-07c1-11e6-9e32-0f82669a8b0a",
+  "topic" : "user.deleted",
+  "delivery_status" : null,
+  "delivery_attempts" : 1,
+  "delivered_at" : 0,
+  "first_sent_at" : 1461243969,
+  "created_at" : 1461243969,
+  "self" : null
+}

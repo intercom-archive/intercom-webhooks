@@ -1,0 +1,30 @@
+{
+  "type" : "notification_event",
+  "app_id" : "YOUR_APP_ID",
+  "data" : {
+    "type" : "notification_event_data",
+    "item" : {
+      "type" : "event",
+      "id" : "a248e4ae-070b-11e6-9ebe-0739429f33ef",
+      "intercom_user_id" : "57179d0fcda796048c00046d",
+      "event_name" : "test-event",
+      "created_at" : 1461165723,
+      "email" : "user@example.com",
+      "user_id" : null,
+      "metadata" : {
+        "meta" : "data",
+        "int_value" : 1,
+        "bool_value" : false
+      }
+    }
+  },
+  "links" : { },
+  "id" : "notif_a248e4ae-070b-11e6-9ebe-0739429f33ef",
+  "topic" : "event.created",
+  "delivery_status" : null,
+  "delivery_attempts" : 1,
+  "delivered_at" : 0,
+  "first_sent_at" : 1461165724,
+  "created_at" : 0,
+  "self" : null
+}

@@ -1,0 +1,71 @@
+{
+  "type" : "notification_event",
+  "app_id" : "YOUR_APP_ID",
+  "data" : {
+    "type" : "notification_event_data",
+    "item" : {
+      "type" : "conversation",
+      "id" : "4584686769",
+      "created_at" : 1461165141,
+      "updated_at" : 1461165179,
+      "user" : {
+        "type" : "user",
+        "id" : "57179c30c776e05d4c0002a8",
+        "name" : "Jane Doe",
+        "email" : ""
+      },
+      "assignee" : {
+        "type" : "admin",
+        "id" : "246810",
+        "name" : "Timothy Lim",
+        "email" : "admin@yourdomain.com"
+      },
+      "conversation_message" : {
+        "type" : "conversation_message",
+        "id" : "27056613",
+        "subject" : "",
+        "body" : "<p>visitor initiated message 1</p>",
+        "author" : {
+          "type" : "user",
+          "id" : "57179c30c776e05d4c0002a8"
+        },
+        "attachments" : [ ]
+      },
+      "conversation_parts" : {
+        "type" : "conversation_part.list",
+        "conversation_parts" : [ {
+          "type" : "conversation_part",
+          "id" : "98539790",
+          "part_type" : "comment",
+          "body" : "<p>visitor reply 2</p>",
+          "created_at" : 1461165179,
+          "updated_at" : 1461165179,
+          "notified_at" : 1461165179,
+          "assigned_to" : null,
+          "author" : {
+            "type" : "user",
+            "id" : "57179c30c776e05d4c0002a8",
+            "name" : "Jane Doe",
+            "email" : ""
+          },
+          "attachments" : [ ]
+        } ]
+      },
+      "open" : true,
+      "read" : true,
+      "metadata" : { },
+      "links" : {
+        "conversation_web" : "https://app.intercom.io/a/apps/YOUR_APP_ID/inbox/all/conversations/4584686769"
+      }
+    }
+  },
+  "links" : { },
+  "id" : "notif_5ea55620-070a-11e6-a52e-73634a395e93",
+  "topic" : "conversation.user.replied",
+  "delivery_status" : null,
+  "delivery_attempts" : 1,
+  "delivered_at" : 0,
+  "first_sent_at" : 1461165180,
+  "created_at" : 1461165180,
+  "self" : null
+}
