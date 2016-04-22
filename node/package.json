@@ -1,0 +1,25 @@
+{
+  "name": "intercom-webhooks",
+  "version": "1.0.0",
+  "description": "Sample code to process Intercom's webhooks",
+  "main": "index.js",
+  "dependencies": {
+    "bl": "^1.1.2",
+    "crypto": "0.0.3",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thewheat/intercom-webhooks"
+  },
+  "keywords": [
+    "intercom",
+    "webhooks"
+  ],
+  "author": "Timothy Lim <tim@thewheatfield.org>",
+  "license": "ISC"
+}
