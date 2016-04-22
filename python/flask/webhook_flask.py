@@ -1,5 +1,5 @@
 # install dependencies
-#    pip install -r requirements_env_flask.txt
+#    pip install -r requirements.txt
 # self host with
 #    python flask.py
 # make webhook using
