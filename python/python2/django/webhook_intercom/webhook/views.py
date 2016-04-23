@@ -12,21 +12,21 @@ def index(request):
     if request.method == "POST" :
         EXPECTED = ""
         DATA = request.body
-        print ("===============================================================");
-        print (DATA.decode());
-        print ("===============================================================");
+        print "===============================================================";
+        print DATA;
+        print "===============================================================";
         if not request.META.get('HTTP_X_HUB_SIGNATURE') is None :
             EXPECTED = str(request.META.get('HTTP_X_HUB_SIGNATURE'))
         if not EXPECTED :
             print("Not signed. Not calculating");
         else :
-            calculated = hmac.new(KEY.encode("ascii"), DATA, hashlib.sha1).hexdigest()
+            calculated = hmac.new(KEY, DATA, hashlib.sha1).hexdigest()
             calculated = "sha1=" + (calculated)
             print("Expected  : " + EXPECTED);
             print("Calculated: " + calculated);
             print("Match?    : " + str(calculated == EXPECTED));
         pass
-        output = json.loads(DATA.decode())
+        output = json.loads(DATA)
         print("Topic Recieved: " + output["topic"]);
 
     return HttpResponse()
