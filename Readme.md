@@ -11,3 +11,4 @@
 - Run the code locally
 - Use ngrok http://ngrok.io/ to open a tunnel to your local computer
 - Specify ngrok URL in Intercom's webhook endpoint
+- Code also supports "Hub Secret" and requires code modification to include your specific secret
