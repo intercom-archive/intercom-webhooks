@@ -1,0 +1,75 @@
+{
+  "type" : "notification_event",
+  "app_id" : "APP_ID",
+  "data" : {
+    "type" : "notification_event_data",
+    "item" : {
+      "type" : "conversation",
+      "id" : "CONVO_ID",
+      "created_at" : 1464310327,
+      "updated_at" : 1464310410,
+      "user" : {
+        "type" : "user",
+        "id" : "57479a1ca8ed2c9b65000184",
+        "user_id" : "f157aa1b-3694-415f-8731-4e70404d6fbb",
+        "name" : "ABC",
+        "email" : ""
+      },
+      "assignee" : {
+        "type" : "admin",
+        "id" : "271256",
+        "name" : "Tim",
+        "email" : "admin@email.com"
+      },
+      "conversation_message" : {
+        "type" : "conversation_message",
+        "id" : "30760375",
+        "subject" : "",
+        "body" : "<p>message 1</p>",
+        "author" : {
+          "type" : "user",
+          "id" : "57479a1ca8ed2c9b65000184"
+        },
+        "attachments" : [ ]
+      },
+      "conversation_parts" : {
+        "type" : "conversation_part.list",
+        "conversation_parts" : [ {
+          "type" : "conversation_part",
+          "id" : "117674972",
+          "part_type" : "assignment",
+          "body" : null,
+          "created_at" : 1464310410,
+          "updated_at" : 1464310410,
+          "notified_at" : 1464310410,
+          "assigned_to" : {
+            "type" : "admin",
+            "id" : "271256",
+            "name" : "Tim"
+          },
+          "author" : {
+            "type" : "admin",
+            "id" : "248698",
+            "name" : "Timothy Lim"
+          },
+          "attachments" : [ ]
+        } ]
+      },
+      "open" : true,
+      "read" : false,
+      "metadata" : { },
+      "links" : {
+        "conversation_web" : "https://app.intercom.io/a/apps/APP_ID/inbox/all/conversations/CONVO_ID"
+      }
+    }
+  },
+  "links" : { },
+  "id" : "notif_6e02ebc0-23a5-11e6-97fe-4bdae937a924",
+  "topic" : "conversation.admin.assigned",
+  "delivery_status" : null,
+  "delivery_attempts" : 1,
+  "delivered_at" : 0,
+  "first_sent_at" : 1464310410,
+  "created_at" : 1464310410,
+  "self" : null
+}
